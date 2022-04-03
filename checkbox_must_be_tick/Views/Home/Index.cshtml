@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html >
+<head>
+    <title></title>
+</head>
+<body>
+    <input id="accept" type="checkbox" name="check" value="name" /> not a robot
+    <br />
+    <input id="submitbtn" type="submit" disabled name="gönder" value="submit" />
+
+    <script>
+        $("#accept").click(function () {
+            if ($("#submitbtn").is(":disabled")) {
+                $("#submitbtn").removeAttr("disabled");
+            }
+            else {
+                $("#submitbtn").attr('disabled', '');
+            }
+            
+        });
+    </script>
+</body>
+</html>

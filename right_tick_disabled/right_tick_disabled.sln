@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "right_tick_disabled", "right_tick_disabled.csproj", "{06F4AA8F-CD3A-47BE-AA4D-93C835760316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F4AA8F-CD3A-47BE-AA4D-93C835760316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F4AA8F-CD3A-47BE-AA4D-93C835760316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F4AA8F-CD3A-47BE-AA4D-93C835760316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F4AA8F-CD3A-47BE-AA4D-93C835760316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5725E690-5503-4B43-9C40-27FD18BC9925}
+	EndGlobalSection
+EndGlobal

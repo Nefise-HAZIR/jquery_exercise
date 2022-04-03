@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        p span{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <p>I am nefise right now ı m learning jquery how are u ? </p>
+
+    <script>
+        $('p').each(function () {
+            var kelime = $(this).text().split(' ');
+            $(this).empty().html(function () {
+
+                for (var i = 0; i < kelime.length; i++) {
+                    $(this).append('<span>' + kelime[i] + '</span>' + ' ');
+                }
+            });
+
+            
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <style>
+        .tabe-style{
+            width:500px;
+            margin: 0px auto;
+        }
+        table {
+            text-align:center;
+            width: 100%;
+        }
+        table tr td {
+            width:50%;
+            border:1px solid red;
+            padding:10px;
+        }
+        table tr th{
+            border:1px solid blue;
+            padding:10px;
+            text-align:center;
+        }
+        .zebra{
+            background-color:gainsboro;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tabe-style">
+        <table>
+            <tr>
+                <th>student name</th>
+                <th>mark</th>
+
+            </tr>
+            <tr>
+                <td>nefise</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>emine</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>ömer</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td>ahmet</td>
+                <td>78</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("tr:odd").addClass("zebra");
+        });
+    </script>
+</body>
+</html>

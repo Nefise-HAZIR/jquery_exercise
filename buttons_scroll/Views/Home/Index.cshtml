@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        #nonselected{
+            position:absolute;
+            top:10px;
+            left:10px;
+            width:180px;
+            height:180px;
+            background-color:bisque;
+            border:1px dotted black;
+            padding:10px;
+        }
+        #selected {
+            position: absolute;
+            top: 10px;
+            left: 200px;
+            width: 180px;
+            height: 180px;
+            background-color: bisque;
+            border: 1px dotted black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="nonselected">
+        <button id="btnDefault" onclick="moveButton(this)" type="button">Button1</button>
+        <button id="btnPrimary" onclick="moveButton(this)" type="button">Button2</button>
+        <button id="btnDanger" onclick="moveButton(this)" type="button">Button3</button>
+    </div>
+    <div id="selected"></div>
+
+    <script>
+        function moveButton(a) {
+            if ($(a).parent().attr("id") == "nonselected") {
+                $(a).detach().appendTo("#selected");
+            }
+            else {
+                $(a).detach().appendTo('#nonselected')
+            }
+        }
+    </script>
+</body>
+</html>

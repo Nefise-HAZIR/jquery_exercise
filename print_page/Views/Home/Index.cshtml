@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <a class="print_page" href="#">print</a>
+
+    <script>
+        $("a.print_page").click(function () {
+            window.print();
+            return false;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        p.prop{
+            margin:10px auto;
+            padding:8px;
+            color:blueviolet;
+            border:dotted 5px blue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <p class="prop">I m NEFİSE HAZIR and ı m living in Ankara right now.</p>
+    <input type="button" name="name" value="remove" onclick="remove()" />
+
+    <script>
+        function remove() {
+            $('.prop').css("border", "0");
+        }
+    </script>
+</body>
+</html>

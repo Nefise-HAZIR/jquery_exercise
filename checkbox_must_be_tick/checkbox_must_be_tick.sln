@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkbox_must_be_tick", "checkbox_must_be_tick.csproj", "{D478734C-0166-4EF6-B344-CE5C0543251C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D478734C-0166-4EF6-B344-CE5C0543251C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D478734C-0166-4EF6-B344-CE5C0543251C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D478734C-0166-4EF6-B344-CE5C0543251C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D478734C-0166-4EF6-B344-CE5C0543251C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {045ED523-632B-449C-A173-2EF5E75688D3}
+	EndGlobalSection
+EndGlobal

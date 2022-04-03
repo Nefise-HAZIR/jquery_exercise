@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<html >
+<head>
+    <title></title>
+</head>
+<body>
+    <p>just the right click disabled in the photo</p>
+    <img src="https://i.picsum.photos/id/859/200/300.jpg?hmac=Ty9c6r04FYgwfkw5JMqSLG_eMq0RxeaMTAArotTX6Qk" alt="Alternate Text" />
+    <script>
+        $("body").on("contextmenu", "img", function () {
+            return false;
+        });
+
+       /* rigth click disabled on all of the page*/ 
+        //$(document).bind("contextmenu", function () {
+        //    return false;
+        //});
+    </script>
+</body>
+</html>
